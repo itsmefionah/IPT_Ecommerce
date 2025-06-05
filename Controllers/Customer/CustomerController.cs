@@ -23,5 +23,10 @@ namespace VYBR_IPT_ETR.Controllers.Customer
         {
             return View();
         }
+
+        public IActionResult AddToCart()
+        {
+            return View();
+        }
     }
 }
